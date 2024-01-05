@@ -5,6 +5,7 @@
 html,
 body :root {
   height: 100%;
+  font-feature-settings: "tnum", "cv05";
 }
 
 .leaflet-bottom,
