@@ -26,7 +26,6 @@ export default async function getCurrentUser() {
     }
 
     return currentUser;
-    age;
   } catch (error: any) {
     return null;
   }
