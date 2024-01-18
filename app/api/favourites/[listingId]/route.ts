@@ -14,15 +14,15 @@ export async function POST(request: Request, { params }: { params: IParams }) {
     return NextResponse.error();
   }
 
-  const { listingId: listingsId } = params;
+  const { listingId } = params;
 
-  if (!listingsId || typeof listingsId !== "string") {
+  if (!listingId || typeof listingId !== "string") {
     throw new Error("Invalid ID");
   }
 
   let favouriteIds = [...(currentUser.favouriteIds || [])];
 
-  favouriteIds.push(listingsId);
+  favouriteIds.push(listingId);
 
   const user = await prisma.user.update({
     where: {
@@ -67,5 +67,3 @@ export async function DELETE(
 
   return NextResponse.json(user);
 }
-
-

@@ -2,7 +2,6 @@
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { useCallback, useState } from "react";
-import { User } from "@prisma/client";
 import { signOut } from "next-auth/react";
 
 import Avatar from "../Avatar";
