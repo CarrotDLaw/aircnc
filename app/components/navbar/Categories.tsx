@@ -14,11 +14,11 @@ import {
 import { MdOutlineVilla } from "react-icons/md";
 import { FaSkiing } from "react-icons/fa";
 import { BsSnow } from "react-icons/bs";
-import { IoDiamond, IoDisc } from "react-icons/io5";
+import { IoDiamond } from "react-icons/io5";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import Container from "../Container";
 import CategoryBox from "../CategoryBox";
-import { usePathname, useSearchParams } from "next/navigation";
 
 export const categories = [
   {
