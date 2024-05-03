@@ -2,6 +2,10 @@
 
 An Airbnb clone toy project with Next.js 14 and more.
 
+## References
+
+- https://www.youtube.com/watch?v=c_-b_isI4vg
+
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
